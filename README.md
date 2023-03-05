@@ -1,2 +1,2 @@
 # CheckHardDiskModel
-³z¹LCrystalDiskInfo¦C¥XµwºĞ«¬¸¹
+é€éCrystalDiskInfoåˆ—å‡ºç¡¬ç¢Ÿå‹è™Ÿ
