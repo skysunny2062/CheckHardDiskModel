@@ -1,5 +1,5 @@
 @echo Off&COLOR 0B&setlocal enabledelayedexpansion
-title 查硬碟型號 天晴 Ver230305
+title 查硬碟型號 天晴 Ver231102
 ::====================================================================================
 
 rd /s /q "%ProgramFiles%\CrystalDiskInfo\Smart"
@@ -7,9 +7,6 @@ taskkill /f /fi "IMAGENAME eq DiskInfo64.exe"
 timeout /t 10 /nobreak
 start /d "%ProgramFiles%\CrystalDiskInfo" DiskInfo64.exe
 call :Code1
-taskkill /f /fi "IMAGENAME eq DiskInfo64.exe"
-timeout /t 10 /nobreak
-start /d "%ProgramFiles%\CrystalDiskInfo" DiskInfo64.exe
 goto END
 
 ::====================================================================================
