@@ -1,2 +1,2 @@
 # CheckHardDiskModel
-列出硬碟型號
+透過CrystalDiskInfo列出硬碟型號
